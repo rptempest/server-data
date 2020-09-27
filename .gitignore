@@ -1,0 +1,4 @@
+/cache/
+/configs/*.cfg
+/resources/\[local\]/**/*
+/resources/\[tempest\]/**/*

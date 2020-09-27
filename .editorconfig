@@ -1,0 +1,163 @@
+# EditorConfig
+# http://editorconfig.org
+
+# Root configuration
+root = true
+
+# --- TABLE OF CONTENTS --------------------------------------------------------
+#
+#  01. Global
+#  02. Compiled Languages
+#  03. Interpreted Languages
+#  04. Markup Languages
+#  05. Style Sheets
+#  06. Configuration Files
+#  07. Package Managers
+#  08. Task Runners
+#  09. Continuous Integration
+#  10. Build Tools
+#  11. Shell Scripts
+#  12. Web Applications
+#  13. Web Frameworks
+#  14. Miscellaneous
+
+
+# --- 01. GLOBAL ---------------------------------------------------------------
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+
+# --- 02. COMPILED LANGUAGES ---------------------------------------------------
+
+# C Sharp
+# https://msdn.microsoft.com/en-us/library/ff926074.aspx
+[**.cs]
+indent_size = 4
+indent_style = space
+
+
+# --- 03. INTERPRETED LANGUAGES-------------------------------------------------
+
+# JavaScript
+# https://google.github.io/styleguide/javascriptguide.xml
+[**.{js,json}]
+indent_size = 2
+indent_style = space
+
+# Lua
+# http://lua-users.org/wiki/LuaStyleGuide
+[**.lua]
+indent_size = 2
+indent_style = space
+
+
+# --- 04. MARKUP LANGUAGES------------------------------------------------------
+
+# HTML
+# https://google.github.io/styleguide/htmlcssguide.xml
+[**.{htm,html}]
+indent_size = 2
+indent_style = space
+
+# Markdown
+[**.md]
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = false
+
+
+# --- 05. STYLE SHEETS ---------------------------------------------------------
+
+# CSS
+# https://google.github.io/styleguide/htmlcssguide.xml
+[**.css]
+indent_size = 2
+indent_style = space
+
+# SASS
+# http://sass-guidelin.es/#syntax--formatting
+[**.sass]
+indent_size = 2
+indent_style = space
+
+# SCSS
+# http://sass-guidelin.es/#syntax--formatting
+[**.scss]
+indent_size = 2
+indent_style = space
+
+
+# --- 06. CONFIGURATION FILES --------------------------------------------------
+
+# ...
+
+
+# --- 07. PACKAGE MANAGERS -----------------------------------------------------
+
+# Node
+[package.json]
+indent_size = 2
+indent_style = space
+
+
+# --- 08. TASK RUNNERS ---------------------------------------------------------
+
+# ...
+
+
+# --- 09. CONTINUOUS INTEGRATION -----------------------------------------------
+
+# ...
+
+
+# --- 10. BUILD TOOLS ----------------------------------------------------------
+
+# ...
+
+
+# --- 11. SHELL SCRIPTS --------------------------------------------------------
+
+# Windows Batch Script
+[*.bat]
+indent_size = 4
+indent_style = tab
+
+# Linux/Unix Shell Script
+# https://google.github.io/styleguide/shell.xml
+[*.sh]
+indent_size = 2
+indent_style = space
+
+# Windows PowerShell
+[*.ps1]
+indent_size = 4
+indent_style = space
+
+
+# --- 12. WEB APPLICATIONS -----------------------------------------------------
+
+# ...
+
+
+# --- 13. WEB FRAMEWORKS -------------------------------------------------------
+
+# ...
+
+
+# --- 14. MISCELLANEOUS --------------------------------------------------------
+
+# Minified Files
+[**.min.{css,js}]
+indent_style = ignore
+insert_final_newline = ignore
+
+# Text Files
+[**.txt]
+indent_size = 4
+indent_style = space

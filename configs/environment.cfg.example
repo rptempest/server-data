@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------------------- #
+#    IP/PORT BINDINGS                                                          #
+# ---------------------------------------------------------------------------- #
+
+  # Endpoints
+  endpoint_add_tcp "0.0.0.0:30120"
+  endpoint_add_udp "0.0.0.0:30120"
+
+
+# ---------------------------------------------------------------------------- #
+#    PLAYER SETTINGS                                                           #
+# ---------------------------------------------------------------------------- #
+
+  # Enable OneSync
+  onesync_enabled false
+
+  # Set player slots
+  sv_maxclients 32
+
+
+# ---------------------------------------------------------------------------- #
+#    SERVER BROWSER SETTINGS                                                   #
+# ---------------------------------------------------------------------------- #
+
+  # Disable server browser listing (comment for production)
+  sv_master1 ""
+
+  # Server name
+  sv_hostname "TempestRP"
+
+  # Server tags
+  sets tags "roleplay"
+
+  # Server language
+  sets locale "en-US"
+
+  # Server icon (96 x 96px)
+  load_server_icon server_icon.png
+
+  # Server detail image
+  sets banner_detail "https://cdn.tempestrp.com/img/server_banner_detail.png"
+
+  # Server connecting image
+  sets banner_connecting "https://cdn.tempestrp.com/img/server_banner_connecting.png"
+
+
+# ---------------------------------------------------------------------------- #
+#    SECURITY SETTINGS                                                         #
+# ---------------------------------------------------------------------------- #
+
+  # Allow ScriptHook plugins
+  sv_scriptHookAllowed 1
+
+  # Hide player endpoints in log output
+  sv_endpointprivacy true
+
+# ---------------------------------------------------------------------------- #
+#    FIVEM LICENSE KEYS                                                        #
+# ---------------------------------------------------------------------------- #
+
+  # See: https://keymaster.fivem.net
+
+  sv_licenseKey ""
+
+
+# ---------------------------------------------------------------------------- #
+#    STEAM WEB API KEYS                                                        #
+# ---------------------------------------------------------------------------- #
+
+  # See: https://steamcommunity.com/dev/apikey
+
+  set steam_webApiKey ""
+
+
+# ---------------------------------------------------------------------------- #
+#    DATABASE CONNECTION                                                       #
+# ---------------------------------------------------------------------------- #
+
+  set mysql_connection_string "server=;uid=;password=;database="
